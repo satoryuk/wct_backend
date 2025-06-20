@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Api\v1\Auth;
 
+use App\Http\Controllers\API\v1\BaseAPI;
 use Illuminate\Http\Request;
 use App\Services\AuthSV;
-use App\Http\Controllers\Api\v1\BaseAPI;
 use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\AdminLoginRequest;
 class AdminAuthController extends BaseAPI

@@ -31,6 +31,7 @@ class ProductSV extends BaseService
                 'stock_qty'        => $data['stock_qty'],
                 'brand_id'         => $data['brand_id'],
                 'category_id'      => $data['category_id'],
+                'expiry_date'      => $data['expiry_date'],
                 'status'           => $status,
                 'image'            => isset($data['image']) ? $data['image'] : null,
             ]);

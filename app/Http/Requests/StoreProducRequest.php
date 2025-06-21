@@ -28,7 +28,7 @@ class StoreProducRequest extends FormRequest
             'stock_qty' => 'required|integer|min:0',
             'brand_id' => 'sometimes|exists:brand,brand_id',
             'category_id' => 'sometimes|exists:categories,category_id',
-            'image' => 'required|string|max:255',
+            'image' => 'sometimes|string|max:255',
             'expiry_date' => 'sometimes|date',
             'status' =>'required|integer' //1 is available 0 is out_of_stock	
         ];
